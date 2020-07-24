@@ -38,7 +38,7 @@ Resources:
         GetEvent:
           Type: Api
           Properties:
-            Path: /
+            Path: /hello
             Method: get
 
   PostHelloWorld:
@@ -55,7 +55,7 @@ Resources:
         PostEvent:
           Type: Api
           Properties:
-            Path: /
+            Path: /hello
             Method: post
   LambdaExecutionRole:
     Description: Creating service role in IAM for AWS Lambda
