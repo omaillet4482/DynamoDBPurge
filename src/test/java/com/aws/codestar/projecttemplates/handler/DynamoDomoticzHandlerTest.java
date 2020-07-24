@@ -55,7 +55,7 @@ class DynamoDomoticzHandlerTest {
 	        assertEquals(EXPECTED_STATUS_CODE_SUCCESS, response.getStatusCode());
 	        
 	        System.out.println("response");
-	        System.out.println(jsonObjectFromResponse.toString());
+	       // System.out.println(jsonObjectFromResponse.toString());
 	    }
 
 }
